@@ -1,0 +1,157 @@
+body {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #fafafa;
+}
+
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Main container */
+.container {
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Form container */
+.login-container {
+  margin-bottom: 10px;
+  text-align: center;
+  width: 100%;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  padding: 20px 40px;
+}
+
+/* .insta-text {
+  margin: 20px 0 32px;
+} */
+
+.insta-text img{
+  width: 100%;
+}
+
+/* Input form */
+form input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 9px 0 7px 8px;
+  background: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+/* When user has typed something (placeholder is hidden) */
+input:not(:placeholder-shown) {
+  border: 1px solid #dbdbdb;
+}
+
+/*when focused */
+input:focus {
+  outline: none;
+}
+
+button {
+  background-color: #0095f6;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  padding: 7px 16px;
+  margin: 10px 0;
+}
+
+/* Horizontal divider */
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.divider-line {
+  flex: 1;
+  height: 1px;
+  background-color: #dbdbdb;
+}
+
+.divider-text {
+  font-weight: 600;
+  color: #737373;
+  margin: 0 10px;
+}
+
+.fb-logo {
+  width: 40px;
+  vertical-align: middle;
+  margin: 20px 0;
+}
+
+.fb-login {
+  vertical-align: middle;
+  margin-left: -5px;
+}
+
+.fb-login:hover {
+  color: #00376b;
+}
+
+.forgot-password {
+  color: #00376b;
+}
+
+.fb-login,
+.sign-up {
+  color: #0095f6;
+  font-weight: 600;
+}
+
+.sign-up-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 20px 40px;
+  border: 1px solid #dbdbdb;
+  width: 100%;
+}
+
+/* App downloads */
+.get-app-div {
+  box-sizing: border-box;
+  padding: 0 40px;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.app-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 15px 0 25px;
+  gap: 5px;
+}
+
+.app-buttons img {
+  height: 45px;
+  margin: 0 4px;
+
+}
